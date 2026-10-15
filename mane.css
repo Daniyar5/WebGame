@@ -1,10 +1,15 @@
+* {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
     color: white;
 }
 
-h1 {
-    margin: 0;
+button {
+    border: none;
+    cursor: pointer;
 }
 
 header {
@@ -62,7 +67,32 @@ body {
 
 .box {
     width: 20%;
-    height: 300px;
+    height: 360px;
     background-color: rgb(109, 0, 211);
     border-radius: 10px;
+}
+
+.game_title {
+    color: white;
+    text-align: center
+}
+
+.game_img {
+    display: block;
+    height: 250px;
+    width: 80%;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.btn_play {
+    display: block;
+    width: 65%;
+    height: 12%;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: rgb(87, 227, 255);
+ &:hover {
+    background-color: greenyellow;
+ }
 }
